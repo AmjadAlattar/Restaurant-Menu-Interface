@@ -1,0 +1,84 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\image1.jpg" />
+    <None Remove="Images\image10.jpg" />
+    <None Remove="Images\image11.jpg" />
+    <None Remove="Images\image12.jpg" />
+    <None Remove="Images\image13.jpg" />
+    <None Remove="Images\image14.jpg" />
+    <None Remove="Images\image15.jpg" />
+    <None Remove="Images\image16.jpg" />
+    <None Remove="Images\image17.jpg" />
+    <None Remove="Images\image18.jpg" />
+    <None Remove="Images\image19.jpg" />
+    <None Remove="Images\image2.jpeg" />
+    <None Remove="Images\image20.jpg" />
+    <None Remove="Images\image21.jpg" />
+    <None Remove="Images\image22.jpg" />
+    <None Remove="Images\image23.jpeg" />
+    <None Remove="Images\image24.jpg" />
+    <None Remove="Images\image25.jpg" />
+    <None Remove="Images\image26.jpg" />
+    <None Remove="Images\image27.jpeg" />
+    <None Remove="Images\image28.jpg" />
+    <None Remove="Images\image29.jpg" />
+    <None Remove="Images\image3.png" />
+    <None Remove="Images\image30.jpg" />
+    <None Remove="Images\image31.jpg" />
+    <None Remove="Images\image32.jpg" />
+    <None Remove="Images\image33.jpg" />
+    <None Remove="Images\image4.jpg" />
+    <None Remove="Images\image5.jpg" />
+    <None Remove="Images\image6.jpg" />
+    <None Remove="Images\image7.jpg" />
+    <None Remove="Images\image8.jpg" />
+    <None Remove="Images\image9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\image1.jpg" />
+    <Resource Include="Images\image10.jpg" />
+    <Resource Include="Images\image11.jpg" />
+    <Resource Include="Images\image12.jpg" />
+    <Resource Include="Images\image13.jpg" />
+    <Resource Include="Images\image14.jpg" />
+    <Resource Include="Images\image15.jpg" />
+    <Resource Include="Images\image16.jpg" />
+    <Resource Include="Images\image17.jpg" />
+    <Resource Include="Images\image18.jpg" />
+    <Resource Include="Images\image19.jpg" />
+    <Resource Include="Images\image2.jpeg" />
+    <Resource Include="Images\image20.jpg" />
+    <Resource Include="Images\image21.jpg" />
+    <Resource Include="Images\image22.jpg" />
+    <Resource Include="Images\image23.jpeg" />
+    <Resource Include="Images\image24.jpg" />
+    <Resource Include="Images\image25.jpg" />
+    <Resource Include="Images\image26.jpg" />
+    <Resource Include="Images\image27.jpeg" />
+    <Resource Include="Images\image28.jpg" />
+    <Resource Include="Images\image29.jpg" />
+    <Resource Include="Images\image3.png" />
+    <Resource Include="Images\image30.jpg" />
+    <Resource Include="Images\image31.jpg" />
+    <Resource Include="Images\image32.jpg" />
+    <Resource Include="Images\image33.jpg" />
+    <Resource Include="Images\image4.jpg" />
+    <Resource Include="Images\image5.jpg" />
+    <Resource Include="Images\image6.jpg" />
+    <Resource Include="Images\image7.jpg" />
+    <Resource Include="Images\image8.jpg" />
+    <Resource Include="Images\image9.jpg" />
+  </ItemGroup>
+
+</Project>

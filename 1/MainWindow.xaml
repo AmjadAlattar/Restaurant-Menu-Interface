@@ -1,0 +1,180 @@
+﻿<Window x:Class="Amjad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TreeViewCustomItemsSample" Height="400" Width="500">
+    
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <TreeView VerticalAlignment="center" Width="400" Height="400">
+            <TreeViewItem Header="Turkish Food" FontSize="18">
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Iskendar"/>
+                    <Image Name="image1" Source="Images\Image1.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Kumpir"/>
+                    <Image Name="image2" Source="Images\image2.jpeg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Kumpir"/>
+                    <Image Name="image3" Source="Images\image3.png" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Manti"/>
+                    <Image Name="image4" Source="Images\image4.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Lökum"/>
+                    <Image Name="image5" Source="Images\image5.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Baklava"/>
+                    <Image Name="image6" Source="Images\image6.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <Popup Name="popFullScale" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                    <Image Name="imgFullScale" Stretch="Uniform"/>
+                </Popup>
+            </TreeViewItem>
+            <TreeViewItem Header="Arabian Food" FontSize="18">
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Mansaf"/>
+                    <Image Name="image7" Source="Images\image7.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Maqluba"/>
+                    <Image Name="image8" Source="Images\image8.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Kabsah"/>
+                    <Image Name="image9" Source="Images\image9.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Qushari"/>
+                    <Image Name="image10" Source="Images\image10.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Kunafa Nabulsia"/>
+                    <Image Name="image11" Source="Images\image11.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Um Ali"/>
+                    <Image Name="image12" Source="Images\image12.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Halawa Jubn"/>
+                    <Image Name="image13" Source="Images\image13.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <Popup Name="popFullScale1" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                    <Image Name="imgFullScale1" Stretch="Uniform"/>
+                </Popup>
+            </TreeViewItem>
+            <TreeViewItem Header="Indian Food" FontSize="18">
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Tandoori"/>
+                    <Image Name="image14" Source="Images\image14.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Butter Chicken"/>
+                    <Image Name="image15" Source="Images\image15.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Chana Masala"/>
+                    <Image Name="image16" Source="Images\image16.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Aloo Gobi"/>
+                    <Image Name="image17" Source="Images\image17.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Biryani"/>
+                    <Image Name="image18" Source="Images\image18.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Kulfi"/>
+                    <Image Name="image19" Source="Images\image19.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <Popup Name="popFullScale2" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                    <Image Name="imgFullScale2" Stretch="Uniform"/>
+                </Popup>
+            </TreeViewItem>
+            <TreeViewItem Header="Italian Food" FontSize="18">
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Pizza"/>
+                    <Image Name="image20" Source="Images\image20.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Risotto"/>
+                    <Image Name="image21" Source="Images\image21.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Lasagna"/>
+                    <Image Name="image22" Source="Images\image22.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Arancini"/>
+                    <Image Name="image23" Source="Images\image23.jpeg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                    <Label Width="200" Content="Gelato"/>
+                    <Image Name="image24" Source="Images\image24.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                </StackPanel>
+                <Popup Name="popFullScale3" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                    <Image Name="imgFullScale3" Stretch="Uniform"/>
+                </Popup>
+            </TreeViewItem>
+            <TreeViewItem Header="Drinks" FontSize="18">
+                <TreeViewItem Header="Cold Beverages">
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Tmr Hindi"/>
+                        <Image Name="image25" Source="Images\image25.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Orange Juice"/>
+                        <Image Name="image26" Source="Images\image26.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Berry Hibiscus"/>
+                        <Image Name="image27" Source="Images\image27.jpeg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Iced Tea"/>
+                        <Image Name="image28" Source="Images\image28.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Mango Juice"/>
+                        <Image Name="image29" Source="Images\image29.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <Popup Name="popFullScale4" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                        <Image Name="imgFullScale4" Stretch="Uniform"/>
+                    </Popup>
+                </TreeViewItem>
+                <TreeViewItem Header="Hot Beverages">
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Coffee"/>
+                        <Image Name="image30" Source="Images\image30.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Tea"/>
+                        <Image Name="image31" Source="Images\image31.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Hot Chocolate"/>
+                        <Image Name="image32" Source="Images\image32.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="35" Margin="4">
+                        <Label Width="200" Content="Cappuccino"/>
+                        <Image Name="image33" Source="Images\image33.jpg" Height="50" Width="50" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave"/>
+                    </StackPanel>
+                    <Popup Name="popFullScale5" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                        <Image Name="imgFullScale5" Stretch="Uniform"/>
+                    </Popup>
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>
